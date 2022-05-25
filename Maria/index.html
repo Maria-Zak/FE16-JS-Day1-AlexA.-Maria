@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS day1</title>
+</head>
+
+<body>
+    <!-- <script src="script.js"></script> -->
+    <!-- basic 1
+    <script>
+        console.log("Hello from the Console");
+        document.write("Hello from the Browser");
+    </script> -->
+
+    <!-- basic3
+    <script>
+        var age = 25;
+        console.log("and I am " + age, "years old");
+    </script> -->
+
+    <!-- basic4
+    <script>
+        var players = ['Martin', 'Thomas', 'Peter', 'Mathias', 'Niki'];
+        console.log('The most valuable player of the match is ' + players[2])
+    </script> -->
+
+    <!-- intermediate1
+    <script>
+        var cars = ['Tesla', 'Audi', 'Renault', 'Volvo', 'Mazda', 'Fiat', 'Ferrari']
+        console.log(cars.sort())
+    </script> -->
+
+    <!-- intermediate2
+    <script>
+        var fruits = ['apple', 'banana', 'kiwi'];
+        fruits.push('orange');
+        console.log(fruits);
+        console.log(fruits.pop());
+        console.log(fruits);
+
+        var animals = ['monkey', 'horse', 'dog'];
+        console.log(animals.sort());
+        animals.unshift('cat');
+        console.log(animals);
+    </script> -->
+
+    <!-- intermediate3 -->
+    <!-- <script>
+        let fruits1 = 'mango/cherries/kiwi/grapes/pear/peach/orange/lemon'
+        let fruitsArray = fruits1.split('/').join("<br>");
+        document.write(fruitsArray)
+
+
+        // for (let i = 0; i <= fruitsArray.length - 1; i++) {
+        //     document.write(fruitsArray[i])
+        //     document.write('<br>');
+        // }
+    </script> -->
+
+    <!-- advanced1 -->
+    <!-- <script>
+        var a = 7;
+        var b = 14;
+        var c = "21";
+        var d = '36';
+        var e = 42;
+
+        var sum = a + b + Number(c) + Number(d) + e
+        console.log(sum);
+
+        var f = '1';
+        var g = 15;
+        var h = 8;
+        var i = "1";
+
+        var result = Number(f) * g * h * Number(i)
+        console.log(result)
+
+        document.write(sum / result)
+
+        var multi = [
+            [1, 2, 1, 24],
+            [8, 11, 9, 4],
+            [7, 0, 7, 27],
+            [7, 4, 28, 14],
+            [3, 10, 25, 7],
+            [21, 4, 6, 17],
+            [3, 5, 26, 3]
+        ]
+        console.log(multi[1][1], multi[4][2], multi[5][3], multi[2][3], multi[2][1])
+    </script> -->
+
+    <script>
+        // let myString = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up";
+        // let myArray = myString.split('$').join(" ");
+        // document.write(myArray);
+
+        // array 5 names
+
+        // remove the 3 rd name from the array in the shortest solution that you can
+
+        var names = ['Manuel', 'Stefan', 'Alex', 'Maria', 'Jan']
+        names.splice(2, 1)
+        console.log(names)
+    </script>
+</body>
+
+</html>
