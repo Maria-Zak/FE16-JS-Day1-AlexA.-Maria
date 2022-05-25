@@ -1,7 +1,9 @@
+document.write("<h1>Java Script Exercise</h1>");
+
 //Basic exercise 1 - 4
 console.log("Hello from the console");
 let age = "39";
-string2 = " And I\'am " + age + ".";
+string2 = " And I\'am " + age + " years old.";
 document.write("My name is Alex!");
 document.write(string2);
 let players = ["Martin", "Thomas", "Peter", "Mathias", "Niki"];
@@ -31,6 +33,7 @@ animals.unshift("cat");
 console.log(animals);
 
 //Exercise 3
+document.write("<br>");
 let fruits2 = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
 let fruits_array = fruits2.split("/");
 console.table(fruits_array);
