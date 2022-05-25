@@ -1,7 +1,9 @@
+document.write("<h1>Java Script Exercise</h1>");
+
 //Basic exercise 1 - 4
 console.log("Hello from the console");
 let age = "39";
-string2 = " And I\'am " + age + ".";
+string2 = " And I\'am " + age + " years old.";
 document.write("My name is Alex!");
 document.write(string2);
 let players = ["Martin", "Thomas", "Peter", "Mathias", "Niki"];
@@ -31,6 +33,7 @@ animals.unshift("cat");
 console.log(animals);
 
 //Exercise 3
+document.write("<br>");
 let fruits2 = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
 let fruits_array = fruits2.split("/");
 console.table(fruits_array);
@@ -83,3 +86,29 @@ console.log(multi_array[4][2]);
 console.log(multi_array[5][3]);
 console.log(multi_array[2][3]);
 console.log(multi_array[2][1]);
+
+var long_string = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its $HTML$tag.      $A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$ callback$functions$that$do$modify$values.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up"
+
+var long_string_array = long_string.split("$");
+
+console.table(long_string_array);
+
+long_string_array = long_string_array.join(" ");
+document.write("<br>");
+document.write("<br>");
+
+document.write(long_string_array);
+
+var name_array = ["Maria", "Mona", "Daniela", "Stefan", "Alex"];
+
+name_array.splice(2,1);
+console.log(name_array)
+
+var name1 = name_array.pop();
+var name2 = name_array.pop();
+name_array.pop();
+name_array.push(name2);
+name_array.push(name1);
+
+console.log(name_array);
+
